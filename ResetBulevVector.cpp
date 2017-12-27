@@ -63,13 +63,12 @@ int main()
         bm[i] &= ~mask;
 	}
 
-    printf("\nRESULT\n");
-    for (i = 0; i < m; i++)
-	{
-		PrintBV(bm[i], n);
+    	printf("\nRESULT\n");
+    	for (i = 0; i < m; i++){
+	     PrintBV(bm[i], n);
 	}
-
 	system("PAUSE");
+	//byUnitedTimur
 }
 
 
